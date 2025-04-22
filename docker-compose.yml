@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  minecraft:
+    image: itzg/minecraft-bedrock-server
+    container_name: minecraft-bedrock
+    environment:
+      EULA: "TRUE"
+      VERSION: "1.21.71"
+      GAMEMODE: "survival"
+      DIFFICULTY: "normal"
+      LEVEL_NAME: "GitHub Server"
+      SHOW_COORDINATES: "true"
+      ALLOW_CHEATS: "false"
+    ports:
+      - "19132:19132/udp"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
