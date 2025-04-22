@@ -1,0 +1,35 @@
+# Minecraft PE Server Properties
+# Version: 1.21.71
+
+server-name=GitHub Survival Server
+gamemode=survival
+difficulty=normal
+allow-cheats=false
+max-players=10
+online-mode=true
+white-list=false
+server-port=19132
+server-portv6=19133
+view-distance=10
+tick-distance=4
+player-idle-timeout=30
+max-threads=8
+level-name=SurvivalWorld
+level-seed=
+default-player-permission-level=member
+texturepack-required=false
+content-log-file-enabled=false
+compression-threshold=1
+server-authoritative-movement=true
+player-movement-score-threshold=20
+player-movement-distance-threshold=0.3
+player-movement-duration-threshold-in-ms=500
+correct-player-movement=false
+server-authoritative-block-breaking=true
+level-type=DEFAULT
+emit-server-telemetry=true
+
+# Các thiết lập đặc biệt theo yêu cầu
+show-coordinates=true
+allow-list=false
+enable-status=true
